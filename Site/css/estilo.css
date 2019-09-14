@@ -1,0 +1,158 @@
+﻿@charset="UTF-8";
+
+body{
+	
+}
+
+div#interface{
+	max-width:1200px;
+	margin:-8px auto 0px auto;
+	background:#000
+}
+
+header#topo{
+	height:130px;
+}
+
+nav#menu{
+	display:block;
+	position:absolute;
+	width:66%;
+	margin-left:18%; /* 800px */
+	top:96px;
+	z-index:1;
+} 
+
+
+nav#menu ul{
+	text-decoration:none; /* tirar o sublinhado */
+	list-style:none; /* tirar os marcadores */
+	font:1.2vw verdana;
+	margin:0px;
+	padding:0px;
+} 
+
+nav#menu li{
+	float:left;
+	/* background:#CCC; */
+}
+
+nav#menu li a{
+	color:#000;
+	text-decoration:none;
+	background:#000;
+	margin:0px;
+	padding:5px 25px;
+	display:block;
+	color:#FFF;
+}
+
+nav#menu li a:hover{
+	background:#000; 
+	color:#FFF;
+	text-decoration:underline;
+}
+/* ================================================ SUBMENU ====================================================================================*/
+nav#menu li ul{
+	display:none;
+	font-size:1.0vw;
+	z-index:2;
+}
+
+nav#menu li:hover ul{
+	display:block;
+	position:relative;
+}
+
+nav#menu li:hover li{
+	float:none;
+} 
+
+img#anime1, img#anime2{
+	max-width:100%;
+	height:auto;
+}
+
+section#banner-anime{  
+	position:relative;
+	display:inline-block; 
+	width:100%;
+	height:350px;  
+	margin:0px;  
+}   
+	
+section#banner-anime img{ 
+	position:absolute; 
+    transition-property:opacity;
+	transition-duration:1s;
+	transition-timing-function:linear;
+} 
+
+section#banner-anime #anime1, section#banner-anime:hover #anime2{
+	opacity:1;
+		 
+}  
+
+section#banner-anime:hover #anime1, section#banner-anime #anime2{
+	opacity:0;
+} 
+
+section#chamada{
+	position:relative;
+	max-width:1200px;
+	height:auto;
+	left:1.5%;
+}
+	
+article.console{
+	margin: 350px 20px;
+	//*float:center;*//
+	width:100px
+}  	
+
+h3{
+	margin:3px;
+	text-align:center;
+	color:#000;
+	font-family:verdana;
+	font-size:1.3vw;
+	color:#D3D3D3;
+} 
+
+p{
+	text-align:center;
+	font-family:verdana;
+	font-size:1.1vw;
+	padding:0px 15px 0px 15px;
+	color:#D3D3D3;
+	
+}
+
+span a{
+	color:gold;
+	font-size:1.2vw;
+	text-decoration:none;
+}
+
+span a:hover{
+	color:red;
+	font-size:1.vw;
+}
+	
+	
+footer#rodape{ 
+	clear:both; /* sair da divisão */
+	border-top:2px solid #DAA520;
+	padding:15px;	
+} 
+
+footer#rodape p{
+	text-align:center;
+	color:gold;
+	font-family:verdana;
+	font-size:1.3vw;
+} 
+
+footer#rodape a{
+	text-decoration:none;
+} 
