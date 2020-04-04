@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+form{
+	width:600px;
+	padding:350px;
+	margin:auto;
+		 
+} 
+
+input, textarea{
+	font-family:verdana;
+	font-size:13px;
+} 
+
+legend{
+	color:#FF9600;
+	font-weight:bold;
+	font-size:13pt;
+	font-family:verdana;
+	
+} 
+
+fieldset#usuario{
+	background:url("../imagens/icontato.png") 
+	no-repeat 95% 95%;
+	
+}
+
+fieldset#usuario p{
+	text-align:justify;
+}
+
+fieldset#endereco{
+	background:url("../imagens/icone-endereco.png") 
+	no-repeat 95% 95%;
+}
+
+fieldset#endereco p{
+	text-align:justify;
+}
+
+fieldset#mensagem{
+	background:url("../imagens/icone-mensagem.png")
+	no-repeat 95% 95%;
+} 
+
+fieldset#mensagem p{
+	text-align:justify;
+}
+	
